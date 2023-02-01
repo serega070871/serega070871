@@ -1,0 +1,258 @@
+body
+    background: url(../img/bg.svg) center center/cover no-repeat
+    padding: 0
+.wrapper
+    min-height: 100%
+    overflow: hidden
+ul
+    padding: 0
+
+.root
+    margin: 0 auto
+    list-style-type: none
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 240px
+    height: 30px
+    background-color: #EE850A
+    border-radius: 15px
+    &:hover
+        position: relative
+        display: block
+        .dropdown 
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            align-items: flex-start
+            background-color: #ccc
+      
+.dropdown
+    margin: 0 auto
+    display: none
+    position: absolute
+    top: -135px
+    left: 0px
+    box-sizing: border-box
+    background-color: #6c696999
+    width: 240px
+    height: 170px
+    border-radius: 5px
+    padding: 0 80px 15px 80px
+    z-index: 2
+    ul
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        align-items: left
+
+    li
+        display: block
+        cursor: pointer
+        list-style-type: none
+        max-height: 100px
+        float: left
+        margin-top: 0px
+
+    a:hover
+        color: blue
+    a
+        display: block
+        color: black
+        
+header
+    display: block
+    max-height: 150px
+    padding: 23px 0 23px 0
+    background-color: #010101
+    .container
+        box-saizing: content-box
+       
+        .logo
+            color: #dec713
+            h1
+                font-size: 40px
+            h2
+                font-size: 30px
+                margin-top: 22px
+                margin-bottom: 0
+                color: #fff
+        .menu
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+            float: right
+            width: 655px
+            height: 100%
+            padding: 0
+            margin-top: -34px
+            &_item
+                .root
+                    background-color: #3e3b3b
+                    width: 100px
+                    height: 34px
+                    color: #fff
+                    border-radius: 5px
+                    .dropdown
+                        top: -34px
+                        width: 176px
+                        .list
+                            &_item
+                                display: flex
+                                flex-direction: column
+                                justify-content: space-around
+                                align-items: flex-start
+                                padding: 10px
+                            &_link
+                                 color: black
+                                 font-size: 16px 
+                                 float: left
+                                 margin-top: 0px  
+                                 margin-left: -70px                             
+                        a:hover
+                            color: blue
+
+
+            li
+                list-style-type: none
+                text-decoration: none
+            &_link
+                font-size: 22px
+                color: #fff
+    .hamburger
+        dicplay: none
+
+.title
+    font-size: 25px
+    color: #000000
+    margin-top: 40px
+    text-align: center
+.subtitle
+    margin-top: 20px
+    font-size: 20px
+    text-align: center
+    color: rgba(0, 0, 0, 0.7)
+.specialist
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    &_photo
+        margin-top: 20px
+        max-width: 184px
+        max-height: 215px
+    &_name
+        margin-top: 20px
+        font-size: 10px
+    .root
+        margin-top: 20px
+.marketing
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    padding: 0 10px
+    .answer
+        margin-top: 20px
+        font-size: 16px
+        color: rgba(0, 0, 0, 0.8)
+
+.link
+    display: flex
+    flex-direction: column
+    align-items: center
+    max-width: 100%
+    margin-top: 40px
+    ul
+        margin-top: 20px
+        list-style-type: none 
+        font-size: 14px
+        color: rgba(0, 0, 0, 0.8)
+    
+.advertisement
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    &_title
+        margin-top: 0
+    &_descr
+        margin-top: 14px
+        font-size: 16px
+        color: rgba(0, 0, 0, 0.8)
+.yandex
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-top: 40px
+    .direct
+        display: block
+        width: 525px
+        height: 181px
+.services
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    margin-top: 60px
+    padding: 0 10px
+    height: 760px
+    &_img
+        max-width: 100%
+        max-height: 100%
+    .title
+        margin-top: 20px
+    &_descr
+        margin-top: 22px
+    .root
+        margin-top: 15px
+.utility
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    margin-top: 60px
+    &_title
+        font-size: 25px
+        text-align: center
+    &_descr
+        font-size: 16px
+        margin-top: 40px
+    .root
+        margin-top: 123px
+.advantages
+    margin-top: 60px
+    &_descr
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        margin-top: 20px
+        .text
+            font-size: 16px
+            margin-top: 20px
+
+.container_stages
+    margin-top: 60px
+    .list
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 0 auto
+        max-width: 500px
+    ul
+        margin-top: 20px
+        list-style-type: none
+        li
+            font-size: 16px
+footer
+    height: 100px
+    margin-top: 60px
+    background-color: black
+
+
+
+
+
+
