@@ -5,6 +5,7 @@
 body {
   background: url(../img/bg.svg) center center/cover no-repeat;
   padding: 0;
+  scroll-margin-top: 0
 }
 
 .wrapper {
