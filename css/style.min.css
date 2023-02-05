@@ -652,6 +652,7 @@ footer {
   }
   .subtitle {
     font-size: 16px;
+    max-width: 275px
   }
   .promotion {
     margin-top: 45px;
