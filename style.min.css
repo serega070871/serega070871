@@ -108,7 +108,8 @@ header {
   z-index: 5;
 }
 header .container {
-  box-saizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 header .container .logo {
   color: #dec713;
@@ -186,7 +187,7 @@ header .container .menu_link {
   color: #fff;
 }
 header .hamburger {
-  dicplay: none;
+  display: none;
 }
 
 .title {
@@ -497,7 +498,14 @@ footer {
 }
 @media screen and (max-width: 992px) {
   .container {
-    max-width: 768px;
+    max-width: 733px;
+    padding: 0;
+  }
+  .container .logo h1 {
+    font-size: 35px;
+  }
+  .container .logo h2 {
+    font-size: 25px;
   }
   .container nav .menu {
     -ms-flex-pack: distribute;
